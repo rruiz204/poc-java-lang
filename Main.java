@@ -1,5 +1,8 @@
+import src.oop.Object;
+
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello World!!!"); 
+    Object object = new Object();
+    object.random();
   }
 }
