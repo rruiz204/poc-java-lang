@@ -5,20 +5,21 @@ import java.util.*;
 public class Structures {
   public static void main(String[] args) {
     List<String> letters = new ArrayList<>();
-
     letters.add("a");
     letters.add("b");
     letters.add("c");
+    System.out.println(letters);
 
-    letters.forEach(letter -> System.out.println(letter));
-
+    Map<String, Integer> fruits = new HashMap<>();
+    fruits.put("watermelon", 150);
+    fruits.put("orange", 100);
+    fruits.put("kiwi", 75);
+    System.out.println(fruits);
 
     Set<Integer> ids = new HashSet<>();
-
     ids.add(1);
     ids.add(2);
     ids.add(1);
-
-    ids.forEach(id -> System.out.println(id));
+    System.out.println(ids);
   }
 }
