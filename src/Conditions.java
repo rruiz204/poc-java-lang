@@ -10,7 +10,7 @@ public class Conditions {
       System.out.println("odd number");
     }
 
-    String text = (random % 2 != 0) ? "yes" : "not";
-    System.out.println(text);
+    String type = (random % 2 != 0) ? "even" : "odd";
+    System.out.println(type);
   }
 }
