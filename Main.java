@@ -1,3 +1,6 @@
+import src.advanced.Exceptions;
+import src.advanced.Lambdas;
+import src.advanced.Optionals;
 import src.basics.Conditions;
 import src.basics.Loops;
 import src.basics.Variables;
@@ -13,6 +16,9 @@ public class Main {
     Loops.execute();
     Variables.execute();
     Conditions.execute();
+    Exceptions.execute();
+    Lambdas.execute();
+    Optionals.execute();
     
     System.out.println("=== Classes ===");
     Robot machete = new Robot("Machete");
